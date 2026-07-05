@@ -3,5 +3,5 @@ services:
     name: foodie-backend
     runtime: java
     plan: free
-    buildCommand: ./mvnw clean package
+    buildCommand: mvn clean package
     startCommand: java -jar target/*.jar
